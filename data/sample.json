@@ -1,0 +1,90 @@
+{
+  "editions": [
+    {
+      "id": "v1",
+      "title": "河湾",
+      "caption": "c",
+      "revision": "1",
+      "clip": [
+        0,
+        8000
+      ],
+      "frozen": false
+    },
+    {
+      "id": "v2",
+      "title": "旧街",
+      "caption": "c",
+      "revision": "1",
+      "clip": [
+        9000,
+        18000
+      ],
+      "frozen": true
+    },
+    {
+      "id": "v3",
+      "title": "旧街",
+      "caption": "d",
+      "revision": "1",
+      "clip": [
+        0,
+        8000
+      ],
+      "frozen": false
+    }
+  ],
+  "draws": [
+    {
+      "edition": "v1",
+      "stratum": "enhanced",
+      "probability": 1,
+      "verification": "defect"
+    },
+    {
+      "edition": "v2",
+      "stratum": "original",
+      "probability": 0.5,
+      "verification": "missing"
+    }
+  ],
+  "frame": {
+    "enhanced": 1,
+    "original": 2
+  },
+  "findings": [
+    {
+      "caption": "c",
+      "revision": "1",
+      "start": 4500,
+      "end": 6800,
+      "issue": "时间错位"
+    }
+  ],
+  "complaints": [
+    {
+      "ticket": "R1",
+      "edition": "v2",
+      "status": "new"
+    },
+    {
+      "ticket": "R2",
+      "edition": "v1",
+      "status": "closed"
+    }
+  ],
+  "views": [
+    {
+      "edition": "v1",
+      "seconds": 900
+    },
+    {
+      "edition": "v2",
+      "seconds": 1400
+    },
+    {
+      "edition": "v3",
+      "seconds": 130
+    }
+  ]
+}
